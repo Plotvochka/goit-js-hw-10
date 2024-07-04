@@ -1,0 +1,37 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+fieldset {
+  width: 360px;
+  height: 78px;
+  margin: 10px 0;
+  display: flex;
+  gap: 48px;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  border-radius: 4px;
+  stroke-width: 1px;
+  stroke: #808080;
+}
+
+button {
+  border-radius: 8px;
+  padding: 8px 16px;
+  width: 364px;
+  height: 40px;
+  border: none;
+  background: #4e75ff;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #fff;
+}
+
+button:hover {
+  background: #6c8cff;
+}
